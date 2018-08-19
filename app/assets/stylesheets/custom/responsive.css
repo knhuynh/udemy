@@ -1,0 +1,143 @@
+
+@media all and (min-width: 320px) and (max-width: 900px) {
+   
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .search-main {
+      width: 100%;
+    }
+    .text-banner {
+      width: 95%;
+    }
+    .banner {
+      height: 400px;
+    }
+    .menu {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background: #fff;
+      width: 250px;
+      height: 100%;
+      overflow:scroll;
+    }
+    .menu {
+      -webkit-transform: translateX(-300px);
+      -ms-transform: translateX(-300px);
+      transform: translateX(-300px);
+      transition: transform .3s;
+      z-index: 1000;
+    }
+    .menu.open {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    .menu li {
+      float: none;
+    }
+    .menu h4 {
+      font-size: 15px;
+      color: #999;
+      padding-left: 15px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+    .menu li a {
+      border: 0px;
+      padding: 7px 15px;
+      display: block;
+      color: #666;
+      text-transform: none;
+    }
+    .menu li a:hover, .menu li.active a {
+        color: #333;
+        background: #eee;
+    }
+    .menu li a i {
+      width: 20px;
+    }
+    .hide-desktop {
+      display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .logo a {
+      width: 100px;
+      height: 16px; 
+    }
+    .text-banner h2 {
+      font-size: 30px;
+    }
+    .text-banner h3 {
+      font-size: 20px;
+    }
+    .right-mobile  {
+      position: absolute;
+      top: 15px;
+      right:10px;
+      color: #fff;
+      font-size: 20px;
+    }
+    .percent-review {
+      width: auto;
+    }
+    .table-shopping img {
+      width: 50px;
+    }
+    .table-shopping h4 {
+      font-size: 15px;
+    }
+    .box-main .col-sm-3, .box-main .col-sm-9 {
+      width: auto;
+    }
+    .tab-main li a {
+      padding: 10px;
+    }
+    .seach-page {
+      width: auto;
+    }
+    .info-upload {
+      padding-top: 10px;
+    }
+    .menu .dropdown-menu {
+      left: 0px;
+      top: 30px;
+    }
+
+
+
+    .search-main-intructor .box-search-main {
+      width: 90%;
+    }
+    .banner-intructor .text-banner h2 {
+      line-height: 30px;
+      font-size: 23px;
+    }
+    .search-main-intructor  .btn {
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+    .text-banner {
+
+    }
+    .content-create-course {
+      min-height: 10px !important;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 900px) {
+   .box-main .col-sm-3 {
+      width: 30%;
+   } 
+   .box-main .col-sm-9 {
+      width: 70%;
+   }
+}
+@media (min-width: 768px) {
+  .modal-sm {
+      width: 400px;
+  }
+}
